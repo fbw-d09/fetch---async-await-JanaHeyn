@@ -68,7 +68,7 @@ async function buttonChange() {
     try {
         const change = await postAnimation();
         button.style.backgroundColor = 'green';
-        alert('Continue to subscription');
+        alert('Continue to subscription!');
         
     }
     catch(error) {
